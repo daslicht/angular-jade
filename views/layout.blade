@@ -1,0 +1,17 @@
+doctype 5
+html(ng-app="myApp")
+    head
+        title= title
+        include 'styles.blade'
+
+    body
+        b It's #{ new Date() }
+        br
+        a(href='/') home 
+        br
+        a(href='/user') user
+        div#main-view(ng-view ng-controller="myController")
+            include page
+        include 'scripts.blade'
+        
+        //#spinner

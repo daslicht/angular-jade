@@ -1,0 +1,17 @@
+{
+  "name": "angular-blade-express",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express"             : "3.3.4",
+    "Blade"               : "*",
+    "stylus"              : "*",
+    "socket.io"           : "*",
+    "mongodb"             : "*",
+    "formidable"          : "*",
+    "express-resource"    : "1.x"
+  }
+}
